@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
     <title>Resume</title>
-    <style>
-        table, th, td {
-          border: 1px solid black;
-        }
-    </style>
-    <body>
-        <div>
-            <h3>&#47; Summary</h3>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <body class="text-white bg-dark">
+        <div class="nav justify-content-end">
+            <a class="nav-link btn btn-dark border border-white p-1 me-1 mb-1 mt-1" href="Contact.html">Contact</a>
+            <a class="nav-link btn btn-dark border border-white p-1 me-1 mb-1 mt-1" href="Home.html">Home</a>
+            <a class="nav-link btn btn-dark border border-white p-1 me-1 mb-1 mt-1" href="PersonalProfile.html">PP</a>
+            <a class="nav-link btn btn-dark border border-white p-1 me-1 mb-1 mt-1" href="Projects.html">Projects</a> 
+        </div>
+        <div class="me-3 ms-3 p-2 my-5  border border-2 border-white rounded">
+            <h3 class="ms-1 fs-1 fw-bolder">&#47; Summary</h3>
             <p>Highly motivated Software Engineer open to internships and jobs, always eager to grow and learn more
                 about data science, software development and technology related fields.</p>
         </div>
-        <div>
-            <h3>&#47; Skills</h3>
+        <div class="me-3 ms-3 p-2 my-5  border border-2 border-white rounded">
+            <h3 class="ms-1 fs-1 fw-bolder">&#47; Skills</h3>
             <ul>
                 <li>Python</li>
                 <li>Java</li>
@@ -24,19 +31,19 @@
                 <li>Data structure nad Algorithm</li>
             </ul>
         </div>
-        <div>
-            <h3>&#47; Experience</h3>
+        <div class="me-3 ms-3 p-2 my-5  border border-2 border-white rounded">
+            <h3 class="ms-1 fs-1 fw-bolder">&#47; Experience</h3>
             <p>I had been accepted for one month data science internship program at OASIS Infobyte during this
                 internship I have got insight about some machine learning algorithms. I have been also attending
                 several seven days bootcamps at devtown related to web development, AI, cloud computing and DS</p>
         </div>
-        <div>
-            <h3>&#47; Education</h3>
-            <table>
+        <div class="table ms-3 me-3 pe-4">
+            <h3 class="ms-1 fs-1 fw-bolder text-white mb-3">&#47; Education</h3>
+            <table class="table-dark  table-bordered border-white">
                 <tr>
-                    <th>Duration</th>
-                    <th>Education</th>
-                    <th>Description</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Education</th>
+                    <th scope="col">Description</th>
                 </tr>
                 <tr>
                     <td>2007 - 2021</td>
@@ -49,6 +56,7 @@
                     <td>I am software engineering student at Addis Ababa Institute of Technology.</td>
                 </tr>
                 <tr>
+
                     <td>August 2023 - September 2023</td>
                     <td>Oasis Infobyte </td>
                     <td>I had 1 month internship in data science at Oasis Infobyte.</td>
@@ -57,15 +65,18 @@
                     <td>November 2023 - present</td>
                     <td>A2SV</td>
                     <td>I have been accepted to be a part of A2SV G5 in person education program.</td>
-                </tr>
+                </tr>   
                   
             </table>
         </div>
-        <footer>
-            <a href="/Home.html">Home</a>
-            <a href="/Contact.html">Contact</a> 
-            <a href="/Projects.html">Projects</a>
-            <a href="/PersonalProfile.html">PP</a>
-        </footer>
+        <div class="d-flex justify-content-center">
+            <footer>
+                <a class="fs-5 fw-bold me-2" href="Home.html">Home</a>
+                <a class="fs-5 fw-bold me-2" href="Contact.html">Contact</a> 
+                <a class="fs-5 fw-bold me-2" href="Projects.html">Projects</a>
+                <a class="fs-5 fw-bold me-2" href="PersonalProfile.html">PP</a>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
